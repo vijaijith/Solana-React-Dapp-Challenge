@@ -169,10 +169,10 @@ function App() {
     <header className="App-header">
       <h2>Connect to Phantom Wallet</h2>
       <div className="button-container">
-        <button className="custom-button" onClick={createWallet}>Generate a new Solana account</button>
-        <button className="custom-button" onClick={connectWallet}>Connect Wallet</button>
-        <button className="custom-button" onClick={getWalletBalance}>New Account Balance</button>
-        <button className="custom-button" onClick={transferToWallet}>Send SOL to Wallet</button>
+        <button className="button" onClick={createWallet}>Generate a new Solana account</button>
+        <button className="button" onClick={connectWallet}>Connect Wallet</button>
+        <button className="button" onClick={getWalletBalance}>New Account Balance</button>
+        <button className="button" onClick={transferToWallet}>Send SOL to Wallet</button>
        
       </div>
      
