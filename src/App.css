@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App{
+   text-align: center;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  
+
+  .App-header {
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 25%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
+  .message-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Optional: Center the message horizontally */
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: space-evenly;
+    border-radius: 25px;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Adjust color and size as needed */
 }
+
+  .custom-button {
+  position: relative;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  height: 60px;
+  width: 300px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0000 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  }
+
+  .custom-button:hover {
+    background-color: #4CAF50; /* Change the background color on hover */
+    color: #fff; /* Optional: Change the text color on hover */
+  }
+  
