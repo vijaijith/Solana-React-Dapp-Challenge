@@ -8,7 +8,6 @@ Welcome to this simple React application demonstrating integration with the Sola
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 To run the application locally, follow these steps:
